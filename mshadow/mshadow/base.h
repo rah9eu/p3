@@ -154,7 +154,7 @@ extern "C" {
 #endif
 
 #if MSHADOW_USE_CUDA
-  #include <cuda_runtime.h>
+  #include <cuda.h>
   #include <cublas_v2.h>
   #include <curand.h>
 #endif

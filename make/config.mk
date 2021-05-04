@@ -37,8 +37,8 @@
 # choice of compiler
 #--------------------
 
-export CC = clang
-export CXX = clang++
+export CC = gcc-6
+export CXX = g++-6
 export NVCC = nvcc
 
 # whether compile with options for MXNet developer
